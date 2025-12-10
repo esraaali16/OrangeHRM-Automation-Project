@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM" parallel="false">
+    <test name = "test">
+        <classes>
+            <class name="Tests.LoginTest">
+                <methods>
+                    <include name="successfulLogin"/>
+                </methods>
+            </class>
+
+            <class name="Tests.AdminTest">
+                <methods>
+                    <include name="addUser"/>
+                </methods>
+            </class>   
+            
+            <class name="Tests.LeaveTest">
+                <methods>
+                     <include name="addUser"/>
+                </methods>
+            </class>
+
+            <class name="Tests.TimeTest">
+                <methods>
+                    <include name="checkIn"/>
+                </methods>
+            </class>
+
+            <class name="Tests.RecruitmentTest">
+                <methods>
+                    <include name="addCandidate"/>
+                    <include name="searchCandidates"/>
+                </methods>
+            </class>
+
+            <class name="Tests.PerformanceTest">
+                <methods>
+                    <include name="addKPIS"/>
+                </methods>
+            </class>
+
+            <class name="Tests.ClaimTest">
+                <methods>
+                    <include name="assignClaim"/>
+                </methods>
+            </class>
+
+            <class name="Tests.BuzzTest">
+                <methods>
+                    <include name="postPost"/>
+                    <include name="likePost"/>
+                    <include name="writeComment"/>
+                    <include name="deletePost"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+

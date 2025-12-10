@@ -1,0 +1,63 @@
+{
+  "login-data": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "admin-data":
+  {
+    "employeeName": "Jo",
+    "userName": "s.sophia98",
+    "password": "P@ssw0rd!78",
+    "confirmPassword": "P@ssw0rd!78",
+    "successMessage": "Successfully Saved"
+  },
+  "addEmployee":
+  {
+    "firstName": "John",
+    "middleName": "Michael",
+    "lastName": "Doe",
+    "employeeId": "EMP123454",
+    "successMessage": "Successfully Saved",
+    "employeeIdResult": "EMP123"
+  },
+  "leaveData":
+  {
+    "employeeName": "jo",
+    "searchMessage": "No Records Found"
+  },
+  "timeData":
+  {
+    "successMessage": "Successfully Saved",
+    "submittedMessage": "Successfully Submitted"
+  },
+  "recruitmentData":
+  {
+    "firstName": "John",
+    "middleName": "Michael",
+    "lastName": "Doe",
+    "email": "test@test.com",
+    "contactNumber": "0125836984265",
+    "successMessage": "Successfully Saved",
+    "searchResult": "John Micheal Doe"
+  },
+  "performanceData":
+  {
+    "keyPerformance": "Automation Testing",
+    "minimumRating": "10",
+    "maximumRating": "100",
+    "successMessage": "Successfully Saved"
+  },
+  "claimData":
+  {
+    "employeeName": "Jo",
+    "successMessage": "Successfully Saved"
+  },
+  "buzzData":
+  {
+    "post": "Automation Testing",
+    "successMessage": "Successfully Saved",
+    "likeCount": "1 Like",
+    "comment": "test",
+    "deletedMessage": "Successfully"
+  }
+}

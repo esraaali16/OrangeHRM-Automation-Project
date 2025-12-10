@@ -1,0 +1,402 @@
+[DEBUG] - 10-12-2025 19:08:01 [main] [org.testng.TestNG] - suiteXmlPath: "E:\OrangHRMAutomationProject\testng.xml"
+[INFO] - 10-12-2025 19:08:03 [main] [org.testng.internal.Utils] - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO] - 10-12-2025 19:08:08 [main] [Listeners.TestNGListeners] - Test Execution Started
+[INFO] - 10-12-2025 19:08:08 [main] [Utils.PropertiesUtils] - Loading Properties File Data
+[ERROR] - 10-12-2025 19:08:09 [main] [Listeners.TestNGListeners] - ١ exception(s): [org.apache.commons.io.IOIndexedException: IOException #١: Cannot delete file: test-outputs\Logs\log_٢٠٢٥-١٢-١٠_٠٧-٠٨-٠١ م.log]
+[INFO] - 10-12-2025 19:08:09 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  E:\OrangHRMAutomationProject\testng.xml
+
+[INFO] - 10-12-2025 19:08:25 [main] [Drivers.DriverManager] - Driver created on : null
+[INFO] - 10-12-2025 19:08:30 [main] [Utils.BrowserActions] - Navigated to urlhttps://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[DEBUG] - 10-12-2025 19:08:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['username']
+[INFO] - 10-12-2025 19:08:31 [main] [Utils.Waits] - wait for element to be presentBy.name: username
+[INFO] - 10-12-2025 19:08:35 [main] [Utils.Waits] - wait for element to be visibleBy.name: username
+[INFO] - 10-12-2025 19:08:37 [main] [Utils.ElementActions] - Data entered: Adminin the fieldBy.name: username
+[DEBUG] - 10-12-2025 19:08:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['password']
+[INFO] - 10-12-2025 19:08:37 [main] [Utils.Waits] - wait for element to be presentBy.name: password
+[INFO] - 10-12-2025 19:08:37 [main] [Utils.Waits] - wait for element to be visibleBy.name: password
+[INFO] - 10-12-2025 19:08:38 [main] [Utils.ElementActions] - Data entered: admin123in the fieldBy.name: password
+[INFO] - 10-12-2025 19:08:38 [main] [Utils.Waits] - wait for element to be presentBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:08:38 [main] [Utils.Waits] - wait for element to be visibleBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:08:38 [main] [Utils.Waits] - wait for element to be clickableBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:08:41 [main] [Utils.ElementActions] - Clicked on the element: By.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:08:42 [main] [Utils.BrowserActions] - Current url: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] - 10-12-2025 19:08:43 [main] [Listeners.TestNGListeners] - Test casesuccessfulLoginpassed
+[INFO] - 10-12-2025 19:09:00 [main] [Drivers.DriverManager] - Driver created on : null
+[INFO] - 10-12-2025 19:09:09 [main] [Utils.BrowserActions] - Navigated to urlhttps://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[DEBUG] - 10-12-2025 19:09:09 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['username']
+[INFO] - 10-12-2025 19:09:09 [main] [Utils.Waits] - wait for element to be presentBy.name: username
+[INFO] - 10-12-2025 19:09:11 [main] [Utils.Waits] - wait for element to be visibleBy.name: username
+[INFO] - 10-12-2025 19:09:11 [main] [Utils.ElementActions] - Data entered: Adminin the fieldBy.name: username
+[DEBUG] - 10-12-2025 19:09:11 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['password']
+[INFO] - 10-12-2025 19:09:11 [main] [Utils.Waits] - wait for element to be presentBy.name: password
+[INFO] - 10-12-2025 19:09:11 [main] [Utils.Waits] - wait for element to be visibleBy.name: password
+[INFO] - 10-12-2025 19:09:12 [main] [Utils.ElementActions] - Data entered: admin123in the fieldBy.name: password
+[INFO] - 10-12-2025 19:09:12 [main] [Utils.Waits] - wait for element to be presentBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:09:12 [main] [Utils.Waits] - wait for element to be visibleBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:09:12 [main] [Utils.Waits] - wait for element to be clickableBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:09:12 [main] [Utils.ElementActions] - Clicked on the element: By.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:09:14 [main] [Utils.BrowserActions] - Current url: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] - 10-12-2025 19:09:14 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //span[text()='Admin']
+[INFO] - 10-12-2025 19:09:15 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //span[text()='Admin']
+[INFO] - 10-12-2025 19:09:16 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //span[text()='Admin']
+[INFO] - 10-12-2025 19:09:17 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //span[text()='Admin']
+[INFO] - 10-12-2025 19:09:17 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:09:18 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:09:18 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:09:19 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:09:19 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //label[text()='User Role']/following::div[@class='oxd-select-text-input'][1]
+[INFO] - 10-12-2025 19:09:20 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //label[text()='User Role']/following::div[@class='oxd-select-text-input'][1]
+[INFO] - 10-12-2025 19:09:20 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //label[text()='User Role']/following::div[@class='oxd-select-text-input'][1]
+[INFO] - 10-12-2025 19:09:20 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //label[text()='User Role']/following::div[@class='oxd-select-text-input'][1]
+[INFO] - 10-12-2025 19:09:20 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[@role='option']//span[text()='Admin']
+[INFO] - 10-12-2025 19:09:20 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[@role='option']//span[text()='Admin']
+[INFO] - 10-12-2025 19:09:20 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //div[@role='option']//span[text()='Admin']
+[INFO] - 10-12-2025 19:09:20 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[@role='option']//span[text()='Admin']
+[DEBUG] - 10-12-2025 19:09:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['admin-data']['employeeName']
+[INFO] - 10-12-2025 19:09:20 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //input[@placeholder='Type for hints...']
+[INFO] - 10-12-2025 19:09:20 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //input[@placeholder='Type for hints...']
+[INFO] - 10-12-2025 19:09:21 [main] [Utils.ElementActions] - Data entered: Join the fieldBy.xpath: //input[@placeholder='Type for hints...']
+[INFO] - 10-12-2025 19:09:22 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //label[text()='Status']/following::div[contains(@class,'oxd-select-text')][1]
+[INFO] - 10-12-2025 19:09:22 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //label[text()='Status']/following::div[contains(@class,'oxd-select-text')][1]
+[INFO] - 10-12-2025 19:09:22 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //label[text()='Status']/following::div[contains(@class,'oxd-select-text')][1]
+[INFO] - 10-12-2025 19:09:22 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //label[text()='Status']/following::div[contains(@class,'oxd-select-text')][1]
+[INFO] - 10-12-2025 19:09:22 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[@role='option']//span[text()='Enabled']
+[INFO] - 10-12-2025 19:09:22 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[@role='option']//span[text()='Enabled']
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //div[@role='option']//span[text()='Enabled']
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[@role='option']//span[text()='Enabled']
+[DEBUG] - 10-12-2025 19:09:23 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['admin-data']['userName']
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.ElementActions] - Data entered: s.sophia98in the fieldBy.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+[DEBUG] - 10-12-2025 19:09:23 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['admin-data']['password']
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//input[@type='password'])[1]
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//input[@type='password'])[1]
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.ElementActions] - Data entered: P@ssw0rd!78in the fieldBy.xpath: (//input[@type='password'])[1]
+[DEBUG] - 10-12-2025 19:09:23 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['admin-data']['confirmPassword']
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//input[@type='password'])[2]
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//input[@type='password'])[2]
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.ElementActions] - Data entered: P@ssw0rd!78in the fieldBy.xpath: (//input[@type='password'])[2]
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:09:23 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:09:25 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:09:25 [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'oxd-toast-content')]Text: Success
+Successfully Saved
+[DEBUG] - 10-12-2025 19:09:25 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['admin-data']['successMessage']
+[INFO] - 10-12-2025 19:09:25 [main] [Listeners.TestNGListeners] - Test caseaddUserpassed
+[INFO] - 10-12-2025 19:09:42 [main] [Drivers.DriverManager] - Driver created on : null
+[INFO] - 10-12-2025 19:09:48 [main] [Utils.BrowserActions] - Navigated to urlhttps://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[DEBUG] - 10-12-2025 19:09:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['username']
+[INFO] - 10-12-2025 19:09:48 [main] [Utils.Waits] - wait for element to be presentBy.name: username
+[INFO] - 10-12-2025 19:09:49 [main] [Utils.Waits] - wait for element to be visibleBy.name: username
+[INFO] - 10-12-2025 19:09:49 [main] [Utils.ElementActions] - Data entered: Adminin the fieldBy.name: username
+[DEBUG] - 10-12-2025 19:09:49 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['password']
+[INFO] - 10-12-2025 19:09:49 [main] [Utils.Waits] - wait for element to be presentBy.name: password
+[INFO] - 10-12-2025 19:09:49 [main] [Utils.Waits] - wait for element to be visibleBy.name: password
+[INFO] - 10-12-2025 19:09:49 [main] [Utils.ElementActions] - Data entered: admin123in the fieldBy.name: password
+[INFO] - 10-12-2025 19:09:49 [main] [Utils.Waits] - wait for element to be presentBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:09:49 [main] [Utils.Waits] - wait for element to be visibleBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:09:49 [main] [Utils.Waits] - wait for element to be clickableBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:09:49 [main] [Utils.ElementActions] - Clicked on the element: By.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:09:50 [main] [Utils.BrowserActions] - Current url: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] - 10-12-2025 19:09:50 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //span[text()='Time']
+[INFO] - 10-12-2025 19:09:51 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //span[text()='Time']
+[INFO] - 10-12-2025 19:09:51 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //span[text()='Time']
+[INFO] - 10-12-2025 19:09:52 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //span[text()='Time']
+[INFO] - 10-12-2025 19:09:52 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//li[@class='oxd-topbar-body-nav-tab --parent'])[1]
+[INFO] - 10-12-2025 19:09:53 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//li[@class='oxd-topbar-body-nav-tab --parent'])[1]
+[INFO] - 10-12-2025 19:09:53 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: (//li[@class='oxd-topbar-body-nav-tab --parent'])[1]
+[INFO] - 10-12-2025 19:09:53 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: (//li[@class='oxd-topbar-body-nav-tab --parent'])[1]
+[INFO] - 10-12-2025 19:09:53 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //a[text()='Punch In/Out']
+[INFO] - 10-12-2025 19:09:53 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //a[text()='Punch In/Out']
+[INFO] - 10-12-2025 19:09:53 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //a[text()='Punch In/Out']
+[INFO] - 10-12-2025 19:09:54 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //a[text()='Punch In/Out']
+[INFO] - 10-12-2025 19:09:54 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //button[normalize-space()='In']
+[INFO] - 10-12-2025 19:09:55 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //button[normalize-space()='In']
+[INFO] - 10-12-2025 19:09:55 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //button[normalize-space()='In']
+[INFO] - 10-12-2025 19:09:55 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[normalize-space()='In']
+[INFO] - 10-12-2025 19:09:55 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:09:57 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:09:57 [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'oxd-toast-content')]Text: Success
+Successfully Saved
+[DEBUG] - 10-12-2025 19:09:57 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['timeData']['successMessage']
+[INFO] - 10-12-2025 19:09:57 [main] [Listeners.TestNGListeners] - Test casecheckInpassed
+[INFO] - 10-12-2025 19:10:02 [main] [Drivers.DriverManager] - Driver created on : null
+[INFO] - 10-12-2025 19:10:07 [main] [Utils.BrowserActions] - Navigated to urlhttps://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[DEBUG] - 10-12-2025 19:10:07 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['username']
+[INFO] - 10-12-2025 19:10:07 [main] [Utils.Waits] - wait for element to be presentBy.name: username
+[INFO] - 10-12-2025 19:10:08 [main] [Utils.Waits] - wait for element to be visibleBy.name: username
+[INFO] - 10-12-2025 19:10:08 [main] [Utils.ElementActions] - Data entered: Adminin the fieldBy.name: username
+[DEBUG] - 10-12-2025 19:10:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['password']
+[INFO] - 10-12-2025 19:10:08 [main] [Utils.Waits] - wait for element to be presentBy.name: password
+[INFO] - 10-12-2025 19:10:08 [main] [Utils.Waits] - wait for element to be visibleBy.name: password
+[INFO] - 10-12-2025 19:10:08 [main] [Utils.ElementActions] - Data entered: admin123in the fieldBy.name: password
+[INFO] - 10-12-2025 19:10:08 [main] [Utils.Waits] - wait for element to be presentBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:10:08 [main] [Utils.Waits] - wait for element to be visibleBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:10:08 [main] [Utils.Waits] - wait for element to be clickableBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:10:09 [main] [Utils.ElementActions] - Clicked on the element: By.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:10:10 [main] [Utils.BrowserActions] - Current url: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] - 10-12-2025 19:10:10 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //span[text()='Recruitment']
+[INFO] - 10-12-2025 19:10:10 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //span[text()='Recruitment']
+[INFO] - 10-12-2025 19:10:10 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //span[text()='Recruitment']
+[INFO] - 10-12-2025 19:10:11 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //span[text()='Recruitment']
+[INFO] - 10-12-2025 19:10:11 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:10:12 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:10:12 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:10:13 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[DEBUG] - 10-12-2025 19:10:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['recruitmentData']['firstName']
+[INFO] - 10-12-2025 19:10:13 [main] [Utils.Waits] - wait for element to be presentBy.name: firstName
+[INFO] - 10-12-2025 19:10:13 [main] [Utils.Waits] - wait for element to be visibleBy.name: firstName
+[INFO] - 10-12-2025 19:10:13 [main] [Utils.ElementActions] - Data entered: Johnin the fieldBy.name: firstName
+[DEBUG] - 10-12-2025 19:10:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['recruitmentData']['middleName']
+[INFO] - 10-12-2025 19:10:13 [main] [Utils.Waits] - wait for element to be presentBy.name: middleName
+[INFO] - 10-12-2025 19:10:13 [main] [Utils.Waits] - wait for element to be visibleBy.name: middleName
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.ElementActions] - Data entered: Michaelin the fieldBy.name: middleName
+[DEBUG] - 10-12-2025 19:10:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['recruitmentData']['lastName']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be presentBy.name: lastName
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be visibleBy.name: lastName
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.ElementActions] - Data entered: Doein the fieldBy.name: lastName
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //label[text()='Vacancy']/following::div[@class='oxd-select-text-input'][1]
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //label[text()='Vacancy']/following::div[@class='oxd-select-text-input'][1]
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //label[text()='Vacancy']/following::div[@class='oxd-select-text-input'][1]
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //label[text()='Vacancy']/following::div[@class='oxd-select-text-input'][1]
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[@role='option']//span[text()='Software Engineer']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[@role='option']//span[text()='Software Engineer']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //div[@role='option']//span[text()='Software Engineer']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[@role='option']//span[text()='Software Engineer']
+[DEBUG] - 10-12-2025 19:10:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['recruitmentData']['email']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //input[@placeholder='Type here']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //input[@placeholder='Type here']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.ElementActions] - Data entered: test@test.comin the fieldBy.xpath: //input[@placeholder='Type here']
+[DEBUG] - 10-12-2025 19:10:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['recruitmentData']['contactNumber']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //input[@class='oxd-input oxd-input--active']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //input[@class='oxd-input oxd-input--active']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.ElementActions] - Data entered: 0125836984265in the fieldBy.xpath: //input[@class='oxd-input oxd-input--active']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:10:14 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:10:15 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:10:15 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:10:15 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:10:15 [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'oxd-toast-content')]Text: Success
+Successfully Saved
+[DEBUG] - 10-12-2025 19:10:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['recruitmentData']['successMessage']
+[INFO] - 10-12-2025 19:10:15 [main] [Listeners.TestNGListeners] - Test caseaddCandidatepassed
+[INFO] - 10-12-2025 19:10:16 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //span[text()='Recruitment']
+[INFO] - 10-12-2025 19:10:18 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //span[text()='Recruitment']
+[INFO] - 10-12-2025 19:10:18 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //span[text()='Recruitment']
+[INFO] - 10-12-2025 19:10:20 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //span[text()='Recruitment']
+[DEBUG] - 10-12-2025 19:10:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['recruitmentData']['firstName']
+[INFO] - 10-12-2025 19:10:20 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //input[@placeholder='Type for hints...']
+[INFO] - 10-12-2025 19:10:20 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //input[@placeholder='Type for hints...']
+[INFO] - 10-12-2025 19:10:20 [main] [Utils.ElementActions] - Data entered: Johnin the fieldBy.xpath: //input[@placeholder='Type for hints...']
+[INFO] - 10-12-2025 19:10:22 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:10:22 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:10:22 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:10:22 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:10:22 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[@class='oxd-table-card']//div[@role='row']
+[INFO] - 10-12-2025 19:10:23 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[@class='oxd-table-card']//div[@role='row']
+[INFO] - 10-12-2025 19:10:23 [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[@class='oxd-table-card']//div[@role='row']Text: Software Engineer
+John Michael Doe
+(Deleted)
+2025-10-12
+Application Initiated
+[DEBUG] - 10-12-2025 19:10:23 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['recruitmentData']['firstName']
+[INFO] - 10-12-2025 19:10:23 [main] [Listeners.TestNGListeners] - Test casesearchCandidatespassed
+[INFO] - 10-12-2025 19:10:29 [main] [Drivers.DriverManager] - Driver created on : null
+[INFO] - 10-12-2025 19:10:38 [main] [Utils.BrowserActions] - Navigated to urlhttps://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[DEBUG] - 10-12-2025 19:10:38 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['username']
+[INFO] - 10-12-2025 19:10:38 [main] [Utils.Waits] - wait for element to be presentBy.name: username
+[INFO] - 10-12-2025 19:10:39 [main] [Utils.Waits] - wait for element to be visibleBy.name: username
+[INFO] - 10-12-2025 19:10:39 [main] [Utils.ElementActions] - Data entered: Adminin the fieldBy.name: username
+[DEBUG] - 10-12-2025 19:10:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['password']
+[INFO] - 10-12-2025 19:10:39 [main] [Utils.Waits] - wait for element to be presentBy.name: password
+[INFO] - 10-12-2025 19:10:39 [main] [Utils.Waits] - wait for element to be visibleBy.name: password
+[INFO] - 10-12-2025 19:10:39 [main] [Utils.ElementActions] - Data entered: admin123in the fieldBy.name: password
+[INFO] - 10-12-2025 19:10:39 [main] [Utils.Waits] - wait for element to be presentBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:10:39 [main] [Utils.Waits] - wait for element to be visibleBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:10:39 [main] [Utils.Waits] - wait for element to be clickableBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:10:39 [main] [Utils.ElementActions] - Clicked on the element: By.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:10:41 [main] [Utils.BrowserActions] - Current url: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] - 10-12-2025 19:10:41 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //span[text()='Performance']
+[INFO] - 10-12-2025 19:10:42 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //span[text()='Performance']
+[INFO] - 10-12-2025 19:10:42 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //span[text()='Performance']
+[INFO] - 10-12-2025 19:10:44 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //span[text()='Performance']
+[INFO] - 10-12-2025 19:10:44 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //li[@class='oxd-topbar-body-nav-tab --parent']
+[INFO] - 10-12-2025 19:10:44 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //li[@class='oxd-topbar-body-nav-tab --parent']
+[INFO] - 10-12-2025 19:10:44 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //li[@class='oxd-topbar-body-nav-tab --parent']
+[INFO] - 10-12-2025 19:10:44 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //li[@class='oxd-topbar-body-nav-tab --parent']
+[INFO] - 10-12-2025 19:10:44 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //a[text()='KPIs']
+[INFO] - 10-12-2025 19:10:44 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //a[text()='KPIs']
+[INFO] - 10-12-2025 19:10:45 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //a[text()='KPIs']
+[INFO] - 10-12-2025 19:10:45 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //a[text()='KPIs']
+[INFO] - 10-12-2025 19:10:45 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:10:46 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:10:46 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:10:47 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[DEBUG] - 10-12-2025 19:10:47 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['performanceData']['keyPerformance']
+[INFO] - 10-12-2025 19:10:47 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+[INFO] - 10-12-2025 19:10:47 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+[INFO] - 10-12-2025 19:10:48 [main] [Utils.ElementActions] - Data entered: Automation Testingin the fieldBy.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+[INFO] - 10-12-2025 19:10:48 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //label[text()='Job Title']/following::div[@class='oxd-select-text oxd-select-text--active']
+[INFO] - 10-12-2025 19:10:48 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //label[text()='Job Title']/following::div[@class='oxd-select-text oxd-select-text--active']
+[INFO] - 10-12-2025 19:10:48 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //label[text()='Job Title']/following::div[@class='oxd-select-text oxd-select-text--active']
+[INFO] - 10-12-2025 19:10:48 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //label[text()='Job Title']/following::div[@class='oxd-select-text oxd-select-text--active']
+[INFO] - 10-12-2025 19:10:48 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[@role='option']//span[text()='QA Engineer']
+[INFO] - 10-12-2025 19:10:48 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[@role='option']//span[text()='QA Engineer']
+[INFO] - 10-12-2025 19:10:48 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //div[@role='option']//span[text()='QA Engineer']
+[INFO] - 10-12-2025 19:10:48 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[@role='option']//span[text()='QA Engineer']
+[DEBUG] - 10-12-2025 19:10:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['performanceData']['minimumRating']
+[INFO] - 10-12-2025 19:10:48 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//input[@class='oxd-input oxd-input--active'])[3]
+[INFO] - 10-12-2025 19:10:48 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//input[@class='oxd-input oxd-input--active'])[3]
+[INFO] - 10-12-2025 19:10:48 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: (//input[@class='oxd-input oxd-input--active'])[3]
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: (//input[@class='oxd-input oxd-input--active'])[3]
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//input[@class='oxd-input oxd-input--active'])[3]
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//input[@class='oxd-input oxd-input--active'])[3]
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: (//input[@class='oxd-input oxd-input--active'])[3]
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.ElementActions] - Clear text box: By.xpath: (//input[@class='oxd-input oxd-input--active'])[3]
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//input[@class='oxd-input oxd-input--active'])[3]
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//input[@class='oxd-input oxd-input--active'])[3]
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.ElementActions] - Data entered: 10in the fieldBy.xpath: (//input[@class='oxd-input oxd-input--active'])[3]
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:10:49 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:10:50 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:10:50 [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'oxd-toast-content')]Text: Success
+Successfully Saved
+[DEBUG] - 10-12-2025 19:10:50 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['performanceData']['successMessage']
+[INFO] - 10-12-2025 19:10:50 [main] [Listeners.TestNGListeners] - Test caseaddKPISpassed
+[INFO] - 10-12-2025 19:10:55 [main] [Drivers.DriverManager] - Driver created on : null
+[INFO] - 10-12-2025 19:11:03 [main] [Utils.BrowserActions] - Navigated to urlhttps://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[DEBUG] - 10-12-2025 19:11:03 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['username']
+[INFO] - 10-12-2025 19:11:03 [main] [Utils.Waits] - wait for element to be presentBy.name: username
+[INFO] - 10-12-2025 19:11:04 [main] [Utils.Waits] - wait for element to be visibleBy.name: username
+[INFO] - 10-12-2025 19:11:04 [main] [Utils.ElementActions] - Data entered: Adminin the fieldBy.name: username
+[DEBUG] - 10-12-2025 19:11:04 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['password']
+[INFO] - 10-12-2025 19:11:04 [main] [Utils.Waits] - wait for element to be presentBy.name: password
+[INFO] - 10-12-2025 19:11:04 [main] [Utils.Waits] - wait for element to be visibleBy.name: password
+[INFO] - 10-12-2025 19:11:04 [main] [Utils.ElementActions] - Data entered: admin123in the fieldBy.name: password
+[INFO] - 10-12-2025 19:11:04 [main] [Utils.Waits] - wait for element to be presentBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:11:04 [main] [Utils.Waits] - wait for element to be visibleBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:11:04 [main] [Utils.Waits] - wait for element to be clickableBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:11:04 [main] [Utils.ElementActions] - Clicked on the element: By.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:11:05 [main] [Utils.BrowserActions] - Current url: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] - 10-12-2025 19:11:05 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //span[text()='Claim']
+[INFO] - 10-12-2025 19:11:06 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //span[text()='Claim']
+[INFO] - 10-12-2025 19:11:06 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //span[text()='Claim']
+[INFO] - 10-12-2025 19:11:07 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //span[text()='Claim']
+[INFO] - 10-12-2025 19:11:07 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:11:08 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:11:08 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[INFO] - 10-12-2025 19:11:09 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+[DEBUG] - 10-12-2025 19:11:09 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['claimData']['employeeName']
+[INFO] - 10-12-2025 19:11:09 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //input[@placeholder='Type for hints...']
+[INFO] - 10-12-2025 19:11:09 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //input[@placeholder='Type for hints...']
+[INFO] - 10-12-2025 19:11:09 [main] [Utils.ElementActions] - Data entered: Join the fieldBy.xpath: //input[@placeholder='Type for hints...']
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //label[text()='Event']/following::div[contains(@class,'oxd-select-text')]
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //label[text()='Event']/following::div[contains(@class,'oxd-select-text')]
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //label[text()='Event']/following::div[contains(@class,'oxd-select-text')]
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //label[text()='Event']/following::div[contains(@class,'oxd-select-text')]
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[@role='option']//span[text()='Travel Allowance']
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[@role='option']//span[text()='Travel Allowance']
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //div[@role='option']//span[text()='Travel Allowance']
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[@role='option']//span[text()='Travel Allowance']
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //label[text()='Currency']/following::div[contains(@class,'oxd-select-text')]
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //label[text()='Currency']/following::div[contains(@class,'oxd-select-text')]
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //label[text()='Currency']/following::div[contains(@class,'oxd-select-text')]
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //label[text()='Currency']/following::div[contains(@class,'oxd-select-text')]
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[@role='option']//span[text()='Egyptian Pound']
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[@role='option']//span[text()='Egyptian Pound']
+[INFO] - 10-12-2025 19:11:11 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //div[@role='option']//span[text()='Egyptian Pound']
+[INFO] - 10-12-2025 19:11:12 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[@role='option']//span[text()='Egyptian Pound']
+[INFO] - 10-12-2025 19:11:12 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:11:12 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:11:12 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:11:12 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+[INFO] - 10-12-2025 19:11:12 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:11:12 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:11:12 [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'oxd-toast-content')]Text: Success
+Successfully Saved
+[DEBUG] - 10-12-2025 19:11:12 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['claimDate']['successMessage']
+[ERROR] - 10-12-2025 19:11:12 [main] [Utils.JsonUtils] - Missing property in path $['claimDate']No result for json path: claimDate.successMessagein the json file: 
+[INFO] - 10-12-2025 19:11:12 [main] [Listeners.TestNGListeners] - Test caseassignClaimpassed
+[INFO] - 10-12-2025 19:11:17 [main] [Drivers.DriverManager] - Driver created on : null
+[INFO] - 10-12-2025 19:11:28 [main] [Utils.BrowserActions] - Navigated to urlhttps://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[DEBUG] - 10-12-2025 19:11:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['username']
+[INFO] - 10-12-2025 19:11:28 [main] [Utils.Waits] - wait for element to be presentBy.name: username
+[INFO] - 10-12-2025 19:11:29 [main] [Utils.Waits] - wait for element to be visibleBy.name: username
+[INFO] - 10-12-2025 19:11:29 [main] [Utils.ElementActions] - Data entered: Adminin the fieldBy.name: username
+[DEBUG] - 10-12-2025 19:11:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-data']['password']
+[INFO] - 10-12-2025 19:11:29 [main] [Utils.Waits] - wait for element to be presentBy.name: password
+[INFO] - 10-12-2025 19:11:29 [main] [Utils.Waits] - wait for element to be visibleBy.name: password
+[INFO] - 10-12-2025 19:11:29 [main] [Utils.ElementActions] - Data entered: admin123in the fieldBy.name: password
+[INFO] - 10-12-2025 19:11:29 [main] [Utils.Waits] - wait for element to be presentBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:11:30 [main] [Utils.Waits] - wait for element to be visibleBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:11:30 [main] [Utils.Waits] - wait for element to be clickableBy.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:11:30 [main] [Utils.ElementActions] - Clicked on the element: By.cssSelector: button[type='submit']
+[INFO] - 10-12-2025 19:11:32 [main] [Utils.BrowserActions] - Current url: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] - 10-12-2025 19:11:32 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //span[text()='Buzz']
+[INFO] - 10-12-2025 19:11:32 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //span[text()='Buzz']
+[INFO] - 10-12-2025 19:11:32 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: //span[text()='Buzz']
+[INFO] - 10-12-2025 19:11:33 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //span[text()='Buzz']
+[DEBUG] - 10-12-2025 19:11:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['buzzData']['post']
+[INFO] - 10-12-2025 19:11:33 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //textarea[contains(@class,'oxd-buzz-post-input')]
+[INFO] - 10-12-2025 19:11:34 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //textarea[contains(@class,'oxd-buzz-post-input')]
+[INFO] - 10-12-2025 19:11:35 [main] [Utils.ElementActions] - Data entered: Automation Testingin the fieldBy.xpath: //textarea[contains(@class,'oxd-buzz-post-input')]
+[INFO] - 10-12-2025 19:11:35 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//button[@type='submit'])
+[INFO] - 10-12-2025 19:11:35 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//button[@type='submit'])
+[INFO] - 10-12-2025 19:11:35 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: (//button[@type='submit'])
+[INFO] - 10-12-2025 19:11:35 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: (//button[@type='submit'])
+[INFO] - 10-12-2025 19:11:35 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:11:35 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:11:35 [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'oxd-toast-content')]Text: Success
+Successfully Saved
+[DEBUG] - 10-12-2025 19:11:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['buzzData']['successMessage']
+[INFO] - 10-12-2025 19:11:36 [main] [Listeners.TestNGListeners] - Test casepostPostpassed
+[INFO] - 10-12-2025 19:11:36 [main] [Utils.Waits] - wait for element to be presentBy.id: heart
+[INFO] - 10-12-2025 19:11:36 [main] [Utils.Waits] - wait for element to be visibleBy.id: heart
+[INFO] - 10-12-2025 19:11:36 [main] [Utils.Waits] - wait for element to be clickableBy.id: heart
+[INFO] - 10-12-2025 19:11:36 [main] [Utils.ElementActions] - Clicked on the element: By.id: heart
+[INFO] - 10-12-2025 19:11:36 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//p[@class='oxd-text oxd-text--p orangehrm-buzz-stats-active'][normalize-space()='1 Like'])
+[INFO] - 10-12-2025 19:11:36 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//p[@class='oxd-text oxd-text--p orangehrm-buzz-stats-active'][normalize-space()='1 Like'])
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.ElementActions] - Getting text from the element: By.xpath: (//p[@class='oxd-text oxd-text--p orangehrm-buzz-stats-active'][normalize-space()='1 Like'])Text: 1 Like
+[DEBUG] - 10-12-2025 19:11:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['buzzData']['likeCount']
+[INFO] - 10-12-2025 19:11:37 [main] [Listeners.TestNGListeners] - Test caselikePostpassed
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//i[@class='oxd-icon bi-chat-text-fill'])
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//i[@class='oxd-icon bi-chat-text-fill'])
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: (//i[@class='oxd-icon bi-chat-text-fill'])
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: (//i[@class='oxd-icon bi-chat-text-fill'])
+[DEBUG] - 10-12-2025 19:11:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['buzzData']['comment']
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//input[@placeholder='Write your comment...'])
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//input[@placeholder='Write your comment...'])
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.ElementActions] - Data entered: testin the fieldBy.xpath: (//input[@placeholder='Write your comment...'])
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'oxd-toast-content')]Text: Success
+Successfully Saved
+[DEBUG] - 10-12-2025 19:11:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['buzzData']['successMessage']
+[INFO] - 10-12-2025 19:11:37 [main] [Listeners.TestNGListeners] - Test casewriteCommentpassed
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//button[@type='button'])[9]
+[INFO] - 10-12-2025 19:11:37 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//button[@type='button'])[9]
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: (//button[@type='button'])[9]
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: (//button[@type='button'])[9]
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//p[normalize-space()='Delete Post'])
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//p[normalize-space()='Delete Post'])
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: (//p[normalize-space()='Delete Post'])
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: (//p[normalize-space()='Delete Post'])
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.Waits] - wait for element to be presentBy.xpath: (//button[normalize-space()='Yes, Delete'])
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: (//button[normalize-space()='Yes, Delete'])
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.Waits] - wait for element to be clickableBy.xpath: (//button[normalize-space()='Yes, Delete'])
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.ElementActions] - Clicked on the element: By.xpath: (//button[normalize-space()='Yes, Delete'])
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.Waits] - wait for element to be presentBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.Waits] - wait for element to be visibleBy.xpath: //div[contains(@class,'oxd-toast-content')]
+[INFO] - 10-12-2025 19:11:38 [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'oxd-toast-content')]Text: Success
+Successfully Saved
+[DEBUG] - 10-12-2025 19:11:38 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['buzzData']['deletedMessage']
+[INFO] - 10-12-2025 19:11:38 [main] [Listeners.TestNGListeners] - Test casedeletePostpassed
+[INFO] - 10-12-2025 19:11:40 [main] [Listeners.TestNGListeners] - Test Execution Finished
